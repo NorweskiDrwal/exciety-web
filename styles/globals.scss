@@ -1,0 +1,17 @@
+/* 1. Colors */
+$background: #f5f5f5;
+$menu: #997792;
+
+$green: #7a972c;
+$blue: #2d607c;
+$yellow: #fdba1a;
+$orange: #f09d06;
+$purple: #997792;
+$grey: #968b84;
+$red: #ff6666;
+
+/* 2. Fonts */
+$comforta: 'Comfortaa', cursive;
+
+/* 3. Mixins */
+@mixin border-radius($radius) {-webkit-border-radius: $radius; -moz-border-radius: $radius; -ms-border-radius: $radius; border-radius: $radius;}
