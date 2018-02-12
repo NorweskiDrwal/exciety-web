@@ -4,7 +4,14 @@ import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
+import 'normalize.css'
+import '../styles/globals.scss'
+
+import About from './components/About'
+
 Vue.use(Vuetify)
+
+Vue.component('app-about', About)
 
 Vue.config.productionTip = false
 
